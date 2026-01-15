@@ -42,36 +42,46 @@ const OurClient = () => {
         <div className='text-[25.06px] font-semibold text-[#4D4D4D] text-center'>in a single system</div>
         <div className='text-center text-[11.14px] text-[#4D4D4D]'>Who is Nextcent suitable for?</div>
 
-        <div className='grid grid-cols-1 sm:grid-cols-3 gap-6 ml-60 mt-10 mr-50'>
+        <div className='grid grid-cols-1 sm:grid-cols-3 gap-6 ml-60 mt-20 mr-50 '>
            
-            <div className='m-4 p-4 border rounded-lg shadow-md'>
+            <div className='w-60 h-50  rounded-lg shadow-lg '>
             
                 <div className='flex items-center justify-center'>
                     <img src={a1} alt="association" />
                 </div>
-                <div className='text-[19.49px] font-bold'>Membership Organization</div>
-                <div className='text-[13px] text-[#717171]'>Our membership management software provides full automation of membership renewals and payments</div>
+                <div className='text-[19.49px] font-bold text-center'>Membership {<br></br>} Organization</div>
+                <div className='text-[13px] text-[#717171] text-center mt-4'>Our membership management software provides full automation of membership renewals and payments</div>
             </div>
 
 
           
-            <div className='m-4 p-4 border rounded-lg shadow-md'>
+            <div className='w-60 h-50  rounded-lg shadow-lg'>
                 <div className='flex items-center justify-center'>
                     <img src={a2} alt="national" />
                 </div>
-                <div className='text-[19.49px] font-bold'>National Association</div>
-                <div className='text-[13px] text-[#717171]'>Our membership management software provides full automation of membership renewals and payments</div>
+                <div className='text-[19.49px] font-bold text-center '>National {<br></br>} Association</div>
+                <div className='text-[13px] text-[#717171] text-center mt-4'>Our membership management software provides full automation of membership renewals and payments</div>
             </div>
 
 
-            <div className='m-4 p-4 border rounded-lg shadow-md'>
+            <div className='w-60 h-50  rounded-lg shadow-lg'>
                 <div className='flex items-center justify-center'>
                     <img src={a3} alt="clubs" />
                 </div>
-                <div className='text-[19.49px] font-bold'>Clubs And Groups</div>
-                <div className='text-[13px] text-[#717171]'>Our membership management software provides full automation of membership renewals and payments</div>
+                <div className='text-[19.49px] font-bold text-center'>Clubs And {<br></br>} Groups</div>
+                <div className='text-[13px] text-[#717171] text-center mt-4'>Our membership management software provides full automation of membership renewals and payments</div>
             </div>
         </div>
+{/* <div>
+        <div>
+         <img src=''
+        </div>
+
+
+        <div></div>
+
+</div> */}
+
       
     </div>
   )

@@ -19,7 +19,7 @@ const Header = () => {
     <div>Community</div>
     <div>Blog</div>
     <div>Pricing</div>
-    <div className='w-[133.25px]  h-[36.49px] text-white text-center bg-[#4CAF4F]'>Register Now</div>
+    <div className='w-[133.25px]  h-[36.49px] text-white text-center bg-[#4CAF4F] '>Register Now</div>
 
     </div>
   </div>
