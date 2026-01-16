@@ -73,17 +73,7 @@ const OurClient = () => {
                 <div className='text-[13px] text-[#717171] text-center mt-4'>Our membership management software provides full automation of membership renewals and payments</div>
             </div>
         </div>
-<div className='grid grid-cols-1 sm:grid-cols-2 '>
-        <div className='mx-50'>
-         <img src={last}></img>
-        </div>
 
-
-        <div>
-            The unseen of spending three years at Pixelgrade
-        </div>
-
-</div>
 
       
     </div>

@@ -16,7 +16,7 @@ const Hero = () => {
           <div className="text-[11.14px] text-[#717171]">
             Where to grow your business as a photographer: site or social media?
           </div>
-          <div className="w-[88.55px] h-[36.49px] mt-7 bg-[#4CAF4F] text-center text-white ">
+          <div className="w-[88.55px] h-[36.49px] mt-7 bg-[#4CAF4F] flex justify-center items-center text-white ">
             Register
           </div>
         </div>
