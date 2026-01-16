@@ -9,6 +9,7 @@ import c7 from '../images/c7.png'
 import a1 from '../images/a1.png'
 import a2 from '../images/a2.png'
 import a3 from '../images/a3.png'
+import last from '../images/last.png'
 
 const OurClient = () => {
   return (
@@ -72,15 +73,17 @@ const OurClient = () => {
                 <div className='text-[13px] text-[#717171] text-center mt-4'>Our membership management software provides full automation of membership renewals and payments</div>
             </div>
         </div>
-{/* <div>
-        <div>
-         <img src=''
+<div className='grid grid-cols-1 sm:grid-cols-2 '>
+        <div className='mx-50'>
+         <img src={last}></img>
         </div>
 
 
-        <div></div>
+        <div>
+            The unseen of spending three years at Pixelgrade
+        </div>
 
-</div> */}
+</div>
 
       
     </div>
