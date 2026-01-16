@@ -8,7 +8,7 @@ const Unseen = () => {
         <img src={last} alt="illustration" />
       </div>
       
-      <div className='max-w-[550px]'>
+      <div className='max-w-[800px]'>
         <div className='text-[36px] font-bold text-[#4D4D4D] mb-6'>
           The unseen of spending three years at Pixelgrade
         </div>

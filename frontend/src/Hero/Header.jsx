@@ -25,9 +25,9 @@ const Header = () => {
         
       
     <div className='w-[133.25px]  h-[36.49px] text-white bg-[#4CAF4F] flex justify-center items-center'>Register Now
-      <divr className='ml-2 flex justify.-center items-center'>
+      <div className='ml-2 flex justify-center items-center'>
         <img src={Right} alt="Right Arrow" />
-      </divr>
+      </div>
       
     </div>
     
