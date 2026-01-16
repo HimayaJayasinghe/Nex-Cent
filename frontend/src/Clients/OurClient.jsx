@@ -13,7 +13,7 @@ import last from '../images/last.png'
 
 const OurClient = () => {
   return (
-    <div>
+    <div className='pt-10'>
         <div className='text-center text-[#4D4D4D] font-semibold text-[25.06px]'>Our Clients</div>
         <div className='text-center text-[#717171] text-[11.14px]'>We have been working with some Fortune 500+ clients</div>
         <div className=' grid grid-cols-1 sm:grid-cols-7 ml-60 mt-10 mr-50 '>
@@ -43,9 +43,9 @@ const OurClient = () => {
         <div className='text-[25.06px] font-semibold text-[#4D4D4D] text-center'>in a single system</div>
         <div className='text-center text-[11.14px] text-[#4D4D4D]'>Who is Nextcent suitable for?</div>
 
-        <div className='grid grid-cols-1 sm:grid-cols-3 gap-6 ml-60 mt-20 mr-50 '>
+        <div className='grid grid-cols-1 sm:grid-cols-3 mt-20 w-7xl justify-items-center mx-auto'>
            
-            <div className='w-60 h-50  rounded-lg shadow-lg '>
+            <div className='w-60 h-55 rounded-lg shadow-lg p-3'>
             
                 <div className='flex items-center justify-center'>
                     <img src={a1} alt="association" />
@@ -56,7 +56,7 @@ const OurClient = () => {
 
 
           
-            <div className='w-60 h-50  rounded-lg shadow-lg'>
+            <div className='w-60 h-55 rounded-lg shadow-lg p-3'>
                 <div className='flex items-center justify-center'>
                     <img src={a2} alt="national" />
                 </div>
@@ -65,7 +65,7 @@ const OurClient = () => {
             </div>
 
 
-            <div className='w-60 h-50  rounded-lg shadow-lg'>
+            <div className='w-60 h-55 rounded-lg shadow-lg p-3'>
                 <div className='flex items-center justify-center'>
                     <img src={a3} alt="clubs" />
                 </div>
