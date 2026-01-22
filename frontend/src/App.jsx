@@ -8,6 +8,8 @@ import Design from './Unseen/Design'
 import MeetCustomers from './Unseen/MeetCustomers'
 import Marketing from './Unseen/Marketing'
 import BeforFooter from './Unseen/BeforFooter'
+import Footer from './Unseen/Footer'
+Footer
 MeetCustomers
 Design
 Local
@@ -29,6 +31,8 @@ const App = () => {
       <MeetCustomers />
       <Marketing />
       <BeforFooter />
+      <Footer />
+
     </div>
   )
 }
