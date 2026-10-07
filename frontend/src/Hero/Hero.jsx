@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import illustration from "../images/Illustration.png";
-import dot from "../images/dot.png";
+import dot from "../images/Dot.png";
 
 const Hero = () => {
   return (
@@ -24,14 +24,14 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-wrap items-center gap-4">
-            <Link 
+            <Link
               to="/contact"
               className="inline-flex items-center justify-center px-8 py-3.5 bg-[#4CAF4F] hover:bg-[#3d913f] transition-all rounded-lg text-white font-semibold cursor-pointer shadow-sm hover:shadow"
             >
               Contact Us for a Quote
             </Link>
 
-            <a 
+            <a
               href="#services"
               className="inline-flex items-center justify-center px-6 py-3.5 border border-gray-300 hover:border-[#4CAF4F] text-[#4D4D4D] hover:text-[#4CAF4F] transition-all rounded-lg font-medium cursor-pointer bg-white"
             >
