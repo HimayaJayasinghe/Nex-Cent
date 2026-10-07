@@ -6,50 +6,55 @@ import he4 from '../images/he4.png'
 
 const Local = () => {
   return (
-    <div className='grid grid-cols-2 bg-[#F5F7FA] pt-4 pr-40 pb-4  pl-[100.23px]  '>
-      <div className='ml-60 my-20 '>
-        <div className='text-[25.06px] text-[#4D4D4D] font-semibold '>Helping a local  </div>
-        <div className='text-green-700 text-[25.06px]  font-semibold'>business reinvent itself</div>
-        <div className='text-[11.14px] text-[#4D4D4D]'>We reached here with our hard work and dedication</div>
+    <section className='bg-[#F5F7FA] py-16'>
+      <div className='max-w-7xl mx-auto px-8 lg:px-24 flex flex-col lg:flex-row justify-between items-center gap-12'>
+        <div className='max-w-md'>
+          <h2 className='text-[28px] lg:text-[34px] text-[#4D4D4D] font-bold leading-tight'>
+            Helping businesses launch
+          </h2>
+          <h2 className='text-[#4CAF4F] text-[28px] lg:text-[34px] font-bold leading-tight'>
+            modern web frontends
+          </h2>
+          <p className='text-[15px] text-[#717171] mt-3 leading-relaxed'>
+            We focus on clean code, responsive layouts, and exceptional visual design so your brand shines online.
+          </p>
+        </div>
+
+        <div className='grid grid-cols-1 sm:grid-cols-2 gap-8 lg:gap-12 w-full lg:w-auto'>
+          <div className='flex items-center gap-4'>
+            <img src={he1} alt="Projects" className='w-12 h-12 object-contain' />
+            <div>
+              <div className='text-2xl font-bold text-[#4D4D4D]'>120+</div>
+              <div className='text-sm text-[#717171]'>Custom Frontends Delivered</div>
+            </div>
+          </div>
+
+          <div className='flex items-center gap-4'>
+            <img src={he2} alt="Responsiveness" className='w-12 h-12 object-contain' />
+            <div>
+              <div className='text-2xl font-bold text-[#4D4D4D]'>100%</div>
+              <div className='text-sm text-[#717171]'>Mobile Responsive Guarantee</div>
+            </div>
+          </div>
+
+          <div className='flex items-center gap-4'>
+            <img src={he3} alt="Speed" className='w-12 h-12 object-contain' />
+            <div>
+              <div className='text-2xl font-bold text-[#4D4D4D]'>&lt; 0.8s</div>
+              <div className='text-sm text-[#717171]'>Average Page Load Speed</div>
+            </div>
+          </div>
+
+          <div className='flex items-center gap-4'>
+            <img src={he4} alt="Hosting Savings" className='w-12 h-12 object-contain' />
+            <div>
+              <div className='text-2xl font-bold text-[#4D4D4D]'>Rs. 0/mo</div>
+              <div className='text-sm text-[#717171]'>Static Hosting Available</div>
+            </div>
+          </div>
+        </div>
       </div>
-
-
-      <div className=' max-w-[800px] grid grid-cols-2 gap-5 justify-items-center mr-60'>
-        <div className='mr-10'>
-            <div>
-            <img src={he1} alt="he1" />
-            </div>
-            <div>2,245,341</div>
-            <div>Members</div>
-        </div>
-
-        <div className='ml-15'>
-            <div >
-                <img src={he2} alt="he2" />
-            </div>
-            <div>46,328</div>
-            <div>Clubs</div>
-        </div>
-
-        <div className=''>
-            <div>
-                <img src={he3} alt="he3" />
-            </div>
-            <div>828,867</div>
-            <div>Event Bookings</div>
-        </div>
-
-        <div className='ml-19'>
-            <div className=''>
-                <img src={he4} alt="he4" /> 
-            </div>
-            <div>1,926,436</div>
-            <div>Payments</div>
-        </div>
-
-        </div>
-
-    </div>
+    </section>
   )
 }
 

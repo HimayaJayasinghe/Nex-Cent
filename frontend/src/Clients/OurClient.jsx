@@ -9,74 +9,64 @@ import c7 from '../images/c7.png'
 import a1 from '../images/a1.png'
 import a2 from '../images/a2.png'
 import a3 from '../images/a3.png'
-import last from '../images/last.png'
 
 const OurClient = () => {
   return (
-    <div className='pt-10'>
-        <div className='text-center text-[#4D4D4D] font-semibold text-[25.06px]'>Our Clients</div>
-        <div className='text-center text-[#717171] text-[11.14px]'>We have been working with some Fortune 500+ clients</div>
-        <div className=' grid grid-cols-1 sm:grid-cols-7 ml-60 mt-10 mr-50 '>
-            <div>
-                <img src={c1} alt="client1" />
-            </div>
-            <div>
-                <img src={c2} alt="client2" />  
-            </div>
-            <div>
-                <img src={c3} alt="client3" />
-            </div>
-            <div>
-                <img src={c4} alt="client4" />
-            </div>
-            <div>
-                <img src={c5} alt="client5" />
-            </div>
-            <div>
-                <img src={c6} alt="client6" />
-            </div>
-            <div>
-                <img src={c7} alt="client7" />
-            </div>
-        </div>
-        <div className='text-[25.06px] font-semibold text-[#4D4D4D] text-center mt-20'>Manage your entire community </div>
-        <div className='text-[25.06px] font-semibold text-[#4D4D4D] text-center'>in a single system</div>
-        <div className='text-center text-[11.14px] text-[#4D4D4D]'>Who is Nextcent suitable for?</div>
-
-        <div className='grid grid-cols-1 sm:grid-cols-3 mt-20 w-7xl justify-items-center mx-auto'>
-           
-            <div className='w-60 h-55 rounded-lg shadow-lg p-3'>
-            
-                <div className='flex items-center justify-center'>
-                    <img src={a1} alt="association" />
-                </div>
-                <div className='text-[19.49px] font-bold text-center'>Membership {<br></br>} Organization</div>
-                <div className='text-[13px] text-[#717171] text-center mt-4'>Our membership management software provides full automation of membership renewals and payments</div>
-            </div>
-
-
-          
-            <div className='w-60 h-55 rounded-lg shadow-lg p-3'>
-                <div className='flex items-center justify-center'>
-                    <img src={a2} alt="national" />
-                </div>
-                <div className='text-[19.49px] font-bold text-center '>National {<br></br>} Association</div>
-                <div className='text-[13px] text-[#717171] text-center mt-4'>Our membership management software provides full automation of membership renewals and payments</div>
-            </div>
-
-
-            <div className='w-60 h-55 rounded-lg shadow-lg p-3'>
-                <div className='flex items-center justify-center'>
-                    <img src={a3} alt="clubs" />
-                </div>
-                <div className='text-[19.49px] font-bold text-center'>Clubs And {<br></br>} Groups</div>
-                <div className='text-[13px] text-[#717171] text-center mt-4'>Our membership management software provides full automation of membership renewals and payments</div>
-            </div>
-        </div>
-
-
+    <section id="services" className='pt-14 pb-16 max-w-7xl mx-auto px-8 lg:px-24'>
+      <div className='text-center text-[#4D4D4D] font-semibold text-[28px]'>Trusted Technology Stack</div>
+      <p className='text-center text-[#717171] text-[15px] mt-2'>We build modern interfaces using industry-standard tools and frameworks</p>
       
-    </div>
+      <div className='flex flex-wrap items-center justify-center lg:justify-between gap-8 mt-10 px-4 opacity-80'>
+        <div><img src={c1} alt="React" className='h-8 w-auto object-contain' /></div>
+        <div><img src={c2} alt="Tailwind CSS" className='h-8 w-auto object-contain' /></div>
+        <div><img src={c3} alt="JavaScript" className='h-8 w-auto object-contain' /></div>
+        <div><img src={c4} alt="HTML5" className='h-8 w-auto object-contain' /></div>
+        <div><img src={c5} alt="Vite" className='h-8 w-auto object-contain' /></div>
+        <div><img src={c6} alt="Vercel" className='h-8 w-auto object-contain' /></div>
+        <div><img src={c7} alt="Figma" className='h-8 w-auto object-contain' /></div>
+      </div>
+
+      <div className='mt-20 text-center'>
+        <h2 className='text-[28px] font-bold text-[#4D4D4D] leading-tight'>
+          What We Build For Our Clients
+        </h2>
+        <p className='text-[15px] text-[#717171] mt-2 max-w-xl mx-auto'>
+          We specialize exclusively in frontend design and development. Check out how we can bring your website to life:
+        </p>
+      </div>
+
+      <div className='grid grid-cols-1 md:grid-cols-3 gap-8 mt-12 justify-items-center'>
+        <div className='w-full max-w-[320px] rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 p-7 bg-white flex flex-col items-center text-center border border-gray-100 hover:border-[#4CAF4F]'>
+          <div className='flex items-center justify-center mb-4 p-3 bg-green-50 rounded-full'>
+            <img src={a1} alt="Landing Pages" />
+          </div>
+          <h3 className='text-[20px] font-bold text-[#4D4D4D]'>Custom Landing<br />Pages</h3>
+          <p className='text-[13px] text-[#717171] text-center mt-3 leading-relaxed'>
+            High-converting, responsive single-page websites tailored to launch your products, services, or events with zero server maintenance.
+          </p>
+        </div>
+
+        <div className='w-full max-w-[320px] rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 p-7 bg-white flex flex-col items-center text-center border border-gray-100 hover:border-[#4CAF4F]'>
+          <div className='flex items-center justify-center mb-4 p-3 bg-green-50 rounded-full'>
+            <img src={a2} alt="Figma to React" />
+          </div>
+          <h3 className='text-[20px] font-bold text-[#4D4D4D]'>Figma & XD<br />to React Code</h3>
+          <p className='text-[13px] text-[#717171] text-center mt-3 leading-relaxed'>
+            Already have designs? We convert your Figma, XD, or Sketch mockups into clean, semantic, and reusable React + Tailwind components.
+          </p>
+        </div>
+
+        <div className='w-full max-w-[320px] rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 p-7 bg-white flex flex-col items-center text-center border border-gray-100 hover:border-[#4CAF4F]'>
+          <div className='flex items-center justify-center mb-4 p-3 bg-green-50 rounded-full'>
+            <img src={a3} alt="Business Showcases" />
+          </div>
+          <h3 className='text-[20px] font-bold text-[#4D4D4D]'>Business & Portfolio<br />Showcases</h3>
+          <p className='text-[13px] text-[#717171] text-center mt-3 leading-relaxed'>
+            Professional showcase websites for creators, agencies, and businesses looking to present their work with smooth animations and fast loading.
+          </p>
+        </div>
+      </div>
+    </section>
   )
 }
 
