@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom'
 import image9 from '../images/image9.png'
 import me1 from '../images/me1.png'
 import me2 from '../images/me2.png'
-import me3 from '../images/me3.png' 
+import me3 from '../images/me3.png'
 import me4 from '../images/me4.png'
 import me5 from '../images/me5.png'
 import me6 from '../images/me6.png'
-import right from '../images/right.png'
+import right from '../images/Right.png'
 
 const MeetCustomers = () => {
   return (
@@ -16,7 +16,7 @@ const MeetCustomers = () => {
         <div className='flex justify-center items-center flex-shrink-0'>
           <img src={image9} alt="Client Testimonial" className='max-w-[340px] w-full rounded-2xl shadow-sm object-cover' />
         </div>
-        
+
         <div className='max-w-2xl'>
           <p className='text-[16px] text-[#717171] leading-relaxed mb-5 font-normal italic'>
             “Nexcent built our custom marketing frontend in less than a week. It was 100% faithful to our design specifications, had buttery-smooth responsiveness across mobile devices, and because it’s a pure frontend build, we host it completely free on Vercel without ever worrying about server crashes.”
